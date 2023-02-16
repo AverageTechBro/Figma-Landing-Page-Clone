@@ -3,7 +3,9 @@ import Image from "next/image";
 import Logo from "next/image";
 import { Inter } from "@next/font/google";
 import { useEffect, useState } from "react";
-
+import PromoCard from "./promocard";
+import MainShop from "./mainshop";
+import Brand from "./brand";
 // import Swiper styles
 import "swiper/css";
 import "swiper/swiper-bundle.css";
@@ -214,6 +216,211 @@ export default function Home() {
             </button>
           </div>
         </div>
+      </div>
+      <PromoCard
+        title={"Lowest Prices "}
+        titleII={"on Pre Sales!"}
+        secondColor={"#000000"}
+        firstColor={"#AE3027"}
+      />
+      <div className="position-one-time">
+        <p className="mainshop-I-title">
+          <span>Deals</span> of the Week!{" "}
+        </p>
+
+        <div className="home-mainshop-container">
+          <MainShop
+            discount={"36% OFF"}
+            thumbnail={
+              "https://media.discordapp.net/attachments/1075680327718141992/1075769849101418506/image_181.png"
+            }
+            detials={
+              "New Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM)"
+            }
+            realPrice={"2,20,000"}
+            initialPrice={"2,30,000"}
+          />
+          <MainShop
+            discount={"OUT OF STOCK"}
+            thumbnail={
+              "https://media.discordapp.net/attachments/1075680327718141992/1075785816384733264/image_1811.png"
+            }
+            detials={
+              "New Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM)"
+            }
+            realPrice={"2,20,000"}
+            initialPrice={"2,30,000"}
+          />
+          <MainShop
+            discount={"36% OFF"}
+            thumbnail={
+              "https://media.discordapp.net/attachments/1075680327718141992/1075785816061792277/image_1812.png"
+            }
+            detials={
+              "New Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM)"
+            }
+            realPrice={"2,20,000"}
+            initialPrice={"2,30,000"}
+          />
+          <MainShop
+            discount={"36% OFF"}
+            thumbnail={
+              "https://media.discordapp.net/attachments/1075680327718141992/1075769849101418506/image_181.png"
+            }
+            detials={
+              "New Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM)"
+            }
+            realPrice={"2,20,000"}
+            initialPrice={"2,30,000"}
+          />
+          <MainShop
+            discount={"36% OFF"}
+            thumbnail={
+              "https://media.discordapp.net/attachments/1075680327718141992/1075769849101418506/image_181.png"
+            }
+            detials={
+              "New Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM)"
+            }
+            realPrice={"2,20,000"}
+            initialPrice={"2,30,000"}
+          />
+        </div>
+      </div>
+      <PromoCard
+        title={" Killer"}
+        titleII={"Deals"}
+        firstColor={"#000000"}
+        secondColor={"#AE3027"}
+      />
+      <div className="position-one-time-II">
+        <p className="mainshop-I-title">
+          <span>Up to 70% OFF</span> Laptops!!{" "}
+        </p>
+        <div className="home-mainshop-container">
+          <MainShop
+            discount={"70% OFF"}
+            thumbnail={
+              "https://media.discordapp.net/attachments/1075680327718141992/1075769849101418506/image_181.png"
+            }
+            detials={
+              "New Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM)"
+            }
+            realPrice={"2,20,000"}
+            initialPrice={"2,30,000"}
+          />
+          <MainShop
+            discount={"70% OFF"}
+            thumbnail={
+              "https://media.discordapp.net/attachments/1075680327718141992/1075769849101418506/image_181.png"
+            }
+            detials={
+              "New Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM)"
+            }
+            realPrice={"2,20,000"}
+            initialPrice={"2,30,000"}
+          />
+          <MainShop
+            discount={"OUT OF STOCK"}
+            thumbnail={
+              "https://media.discordapp.net/attachments/1075680327718141992/1075785816384733264/image_1811.png"
+            }
+            detials={
+              "New Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM)"
+            }
+            realPrice={"2,20,000"}
+            initialPrice={"2,30,000"}
+          />
+          <MainShop
+            discount={"75% OFF"}
+            thumbnail={
+              "https://media.discordapp.net/attachments/1075680327718141992/1075785816061792277/image_1812.png"
+            }
+            detials={
+              "New Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM)"
+            }
+            realPrice={"2,20,000"}
+            initialPrice={"2,30,000"}
+          />
+          <MainShop
+            discount={"75% OFF"}
+            thumbnail={
+              "https://media.discordapp.net/attachments/1075680327718141992/1075769849101418506/image_181.png"
+            }
+            detials={
+              "New Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM)"
+            }
+            realPrice={"2,20,000"}
+            initialPrice={"2,30,000"}
+          />
+        </div>
+      </div>
+      <div className="position-one-time">
+        <p className="mainshop-I-title">
+          <span>Gaming</span> Series!{" "}
+        </p>
+        <div className="home-mainshop-container">
+          <MainShop
+            discount={"70% OFF"}
+            thumbnail={
+              "https://media.discordapp.net/attachments/1075680327718141992/1075769849101418506/image_181.png"
+            }
+            detials={
+              "New Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM)"
+            }
+            realPrice={"2,20,000"}
+            initialPrice={"2,30,000"}
+          />
+          <MainShop
+            discount={"OUT OF STOCK"}
+            thumbnail={
+              "https://media.discordapp.net/attachments/1075680327718141992/1075785816384733264/image_1811.png"
+            }
+            detials={
+              "New Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM)"
+            }
+            realPrice={"2,20,000"}
+            initialPrice={"2,30,000"}
+          />
+          <MainShop
+            discount={"75% OFF"}
+            thumbnail={
+              "https://media.discordapp.net/attachments/1075680327718141992/1075785816061792277/image_1812.png"
+            }
+            detials={
+              "New Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM)"
+            }
+            realPrice={"2,20,000"}
+            initialPrice={"2,30,000"}
+          />
+          <MainShop
+            discount={"75% OFF"}
+            thumbnail={
+              "https://media.discordapp.net/attachments/1075680327718141992/1075769849101418506/image_181.png"
+            }
+            detials={
+              "New Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM)"
+            }
+            realPrice={"2,20,000"}
+            initialPrice={"2,30,000"}
+          />
+          <MainShop
+            discount={"75% OFF"}
+            thumbnail={
+              "https://media.discordapp.net/attachments/1075680327718141992/1075769849101418506/image_181.png"
+            }
+            detials={
+              "New Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM)"
+            }
+            realPrice={"2,20,000"}
+            initialPrice={"2,30,000"}
+          />
+        </div>
+      </div>
+      <div className="position-one-time">
+        <p className="mainshop-I-title">
+          <span>Partner</span> Brands{" "}
+        </p>
+        <Brand />
       </div>
     </div>
   );
