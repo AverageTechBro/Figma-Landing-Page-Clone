@@ -114,22 +114,34 @@ export default function Footer() {
         <div className="social-media-section">
           <p>Follow US</p>
           <div className="social-image-section">
-            <img
-              src="https://media.discordapp.net/attachments/1075680327718141992/1075987022315003914/Group_3331.png"
-              alt=""
-            />
-            <img
-              src="https://media.discordapp.net/attachments/1075680327718141992/1075987212224692304/Group_3332.png"
-              alt=""
-            />
-            <img
-              src="https://media.discordapp.net/attachments/1075680327718141992/1075987212056928256/Group_3333.png"
-              alt=""
-            />
-            <img
-              src="https://media.discordapp.net/attachments/1075680327718141992/1075987211876577410/Group_3334.png"
-              alt=""
-            />
+            <div className="google">
+              <img
+                src="https://media.discordapp.net/attachments/1075680327718141992/1075987022315003914/Group_3331.png"
+                alt=""
+              />
+              <p>Google</p>
+            </div>
+            <div className="twitter">
+              <img
+                src="https://media.discordapp.net/attachments/1075680327718141992/1075987212224692304/Group_3332.png"
+                alt=""
+              />
+              <p>Twitter</p>
+            </div>
+            <div className="facebook">
+              <img
+                src="https://media.discordapp.net/attachments/1075680327718141992/1075987212056928256/Group_3333.png"
+                alt=""
+              />
+              <p>Facebook</p>
+            </div>
+            <div className="apple">
+              <img
+                src="https://media.discordapp.net/attachments/1075680327718141992/1075987211876577410/Group_3334.png"
+                alt=""
+              />
+              <p>Apple</p>
+            </div>
           </div>
         </div>
       </div>

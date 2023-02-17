@@ -1,13 +1,16 @@
 import Head from "next/head";
 import Image from "next/image";
 import Logo from "next/image";
+import Link from "next/link";
 import { Inter } from "@next/font/google";
 import { useEffect, useState } from "react";
 import PromoCard from "./promocard";
 import MainShop from "./mainshop";
+import Navbar from "./navbar";
 import Brand from "./brand";
 import Stats from "./stats";
 import Footer from "./footer";
+import Notification from "./notificationTop";
 // import Swiper styles
 import "swiper/css";
 import "swiper/swiper-bundle.css";
@@ -41,49 +44,8 @@ export default function Home() {
 
   return (
     <div className="landing-page-container">
-      <div className="notification-top">
-        <p>Get discount + Free Delivery on over RS 500</p>
-        <button>
-          Use Code: NOW15{" "}
-          <img
-            src="https://media.discordapp.net/attachments/1075680327718141992/1075685687703109673/Vector3.png"
-            alt=""
-          />
-        </button>
-      </div>
-      <div className="navbar-container">
-        <img className="Logo" src="https://i.imgur.com/ygucKR3.png" alt="" />
-        <div className="search-bar">
-          <input type="text" placeholder="What are you looking for?" />
-          <button className="search-buton">
-            <img src="https://i.imgur.com/5q4e60p.png" alt="" />
-          </button>
-        </div>
-        <div className="right-side">
-          <div className="shop">
-            <img
-              className="cart-icon"
-              src="https://media.discordapp.net/attachments/1075680327718141992/1075680414976462859/cart.png"
-              alt=""
-            />
-            <p>
-              Cart{" "}
-              <img
-                className="down-vector"
-                src="https://media.discordapp.net/attachments/1075680327718141992/1075694872079642684/Vector4.png"
-                alt=""
-              />{" "}
-            </p>
-          </div>
-          <div className="sign-in">
-            <img
-              src="https://media.discordapp.net/attachments/1075680327718141992/1075681453951696957/Vector1.png"
-              alt=""
-            />
-            <p>Sign In</p>
-          </div>
-        </div>
-      </div>
+      <Notification />
+      <Navbar />
       <div className="tag-container">
         <div className="tag-left-side">
           <img
@@ -227,7 +189,7 @@ export default function Home() {
       />
       <div className="position-one-time">
         <p className="mainshop-I-title">
-          <span>Deals</span> of the Week!{" "}
+          <span>Deals</span> of the Week! <b>View All</b>
         </p>
 
         <div className="home-mainshop-container">
@@ -296,7 +258,7 @@ export default function Home() {
       />
       <div className="position-one-time-II">
         <p className="mainshop-I-title">
-          <span>Up to 70% OFF</span> Laptops!!{" "}
+          <span>Up to 70% OFF</span> Laptops!! <b>View All</b>{" "}
         </p>
         <div className="home-mainshop-container">
           <MainShop
@@ -358,7 +320,7 @@ export default function Home() {
       </div>
       <div className="position-one-time">
         <p className="mainshop-I-title">
-          <span>Gaming</span> Series!{" "}
+          <span>Gaming</span> Series! <b>View All</b>{" "}
         </p>
         <div className="home-mainshop-container">
           <MainShop
