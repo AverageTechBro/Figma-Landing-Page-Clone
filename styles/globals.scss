@@ -464,6 +464,112 @@ body{
             margin-right: 5rem;
         }
     }
+    .home-stats-container{
+        padding: 10rem 5rem;
+        .stats-container{
+            background-color: #E6F2FF;
+            display: flex;
+            height: 400px;
+            border-radius: 20px;
+            justify-content: space-between;
+            align-items: center;
+            .main-stats-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .content-container{
+                    text-align: center;
+                    p{
+                        font-size: 18px;
+                        span{
+                            font-weight: bold;
+                        }
+                    }
+                    img{
+                        width: 65px;
+                    }
+                }
+            
+            .line-border{
+                background-color: #8D8D8D;
+                width: 2px;
+                height: 100px;
+                margin-left: 10rem;
+            }
+        }
+            .main-stats-container:first-child{
+                margin-left: 8rem;
+            }
+            .main-stats-container:last-child{
+                margin-right: 9rem;
+            }
+        }
+    }
+    .home-footer-container{
+        background-color: #F3F3F3;
+        padding: 1rem 5rem;
+        .footer-container{
+            .top-section{
+                display: flex;
+                justify-content: space-between;
+                .top-footer-slide{
+                    h3{
+                        margin-left: 2.5rem;
+                        letter-spacing: 2px;
+                    }
+                    ul{
+                        li{
+                            list-style: none;
+                            color: #6A6A6A;
+                            margin-bottom: 1rem;
+                            img{
+                                margin-right: 0.6rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .bottom-section{
+                color: #6A6A6A;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .download-section{
+                    img:first-child{
+                        margin-right: 1rem;
+                    }
+                    .apple{
+                        margin-bottom:-1.8rem ;
+                    }
+            }
+            .payment-option-section{
+                img{
+                    margin-right: 2rem;
+                }
+            }
+            .social-media-section{
+                width: 400px;
+                img{
+                    width: 65px;
+                    margin-right: 2rem;
+                }
+            }
+            }
+        }
+    }
+    .final-word-container{
+        padding: 4rem 5rem 1rem 5rem;
+        background-color: #F3F3F3;
+        display: flex;
+        justify-content: center;
+        color: #848484;
+        img{
+            width: 25px;
+            height: 25px;
+            margin-top: 14px;
+            margin-right: 10px;
+        }
+    }
 }
 .swiper-button-prev::after{
     font-size: 25px !important;

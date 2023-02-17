@@ -6,6 +6,8 @@ import { useEffect, useState } from "react";
 import PromoCard from "./promocard";
 import MainShop from "./mainshop";
 import Brand from "./brand";
+import Stats from "./stats";
+import Footer from "./footer";
 // import Swiper styles
 import "swiper/css";
 import "swiper/swiper-bundle.css";
@@ -421,6 +423,20 @@ export default function Home() {
           <span>Partner</span> Brands{" "}
         </p>
         <Brand />
+      </div>
+      <div className="home-stats-container">
+        <Stats />
+      </div>
+      <div className="home-footer-container">
+        <Footer />
+      </div>
+      <div className="final-word-container">
+        <img
+          src="https://media.discordapp.net/attachments/1075680327718141992/1075987872131334204/Vector18.png"
+          alt=""
+        />
+
+        <p>2023 BT Planet. All Rights Reserved </p>
       </div>
     </div>
   );
