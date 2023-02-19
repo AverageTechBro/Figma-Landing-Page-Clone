@@ -1290,6 +1290,9 @@ body{
   }
 }
 @media only screen and (max-width: 480px) {
+    .landing-page-container{
+        width: 100rem;
+    }
     .search-bar{
         margin-right: 14rem !important;
         input{
