@@ -1,7 +1,7 @@
 export default function PromoCard(props) {
   return (
     <div className="promotion-card-container">
-      <p style={{ color: props.secondColor }}>
+      <p className="lowest-price" style={{ color: props.secondColor }}>
         <span style={{ color: props.firstColor }}>{props.title}</span>{" "}
         {props.titleII}{" "}
       </p>
