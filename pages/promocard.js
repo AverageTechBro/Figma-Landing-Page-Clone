@@ -19,7 +19,7 @@ export default function PromoCard(props) {
           <p>
             Up to <span>65% OFF</span>{" "}
           </p>
-          <button>
+          <button className="promo-shop-button">
             SHOP NOW{" "}
             <span>
               <img

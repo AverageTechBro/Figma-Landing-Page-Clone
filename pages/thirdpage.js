@@ -260,9 +260,9 @@ export default function Third() {
         <div className="home-stats-container">
           <Stats />
         </div>
-        <div className="home-footer-container">
-          <Footer />
-        </div>
+      </div>
+      <div className="home-footer-container">
+        <Footer />
       </div>
     </div>
   );
