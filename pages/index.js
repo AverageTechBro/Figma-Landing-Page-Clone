@@ -129,6 +129,7 @@ export default function Home() {
         <div className="first-shop">
           <div className="shop-image-container">
             <img
+              className="printer"
               src="https://media.discordapp.net/attachments/1075680327718141992/1075713421762371675/image2.png"
               alt=""
             />
