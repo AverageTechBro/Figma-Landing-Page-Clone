@@ -2,7 +2,7 @@
     display: flex;
     margin: 5rem 0;
     .left-side:first-child{
-        margin-left: 6rem;
+        margin-left: 3rem;
         margin-right: -6rem;
     }
     .left-side{
@@ -26,6 +26,7 @@
 }
 .main-sectioned-shop-container{
     .header-container{
+        margin-left: 4rem;
         margin-bottom: -2rem;
     }
 }
@@ -36,7 +37,7 @@
 }
 .main-II-section-shop-container{
     .II-section-shop-container{
-        margin-left: -6rem;
+        margin-left: -0rem;
         img{
             width: calc(96%);
 
