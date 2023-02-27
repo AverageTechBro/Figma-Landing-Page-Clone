@@ -52,7 +52,8 @@ body{
         flex: 1;
         justify-content: center;
         align-items: center;
-        padding: 5px 0;
+        height: 50px;
+        padding: 1px 0;
         p{
             font-size: 18px;
             margin-right: 2rem;
@@ -79,8 +80,9 @@ body{
     .navbar-container{
         display: flex;
         align-items: center;
-        padding: 1rem 5rem 0.6rem 5rem ;
+        padding: 0rem 5rem 0rem 5rem ;
         border-bottom: 2px  solid #c4c4c4 !important; 
+        height: 80px;
         
             a{
                 color: #848484;
@@ -139,6 +141,7 @@ body{
             }
         }
         .right-side{
+            margin-left: -15rem;
             width: 200px;
             color: #848484;
             display: flex;
@@ -180,12 +183,13 @@ body{
         font-weight: bold;
         color: #4F4F4F;
         display: flex;
-        padding: 1rem 5rem ;
+        padding: 0rem 5rem ;
         .tag-left-side{
             img{
                 margin-right: 1rem;
             }
             display: flex;
+            color: #6A6A6A;
             justify-content: center;
             align-items: center;
             margin-right: 4rem;
@@ -198,6 +202,7 @@ body{
                     font-weight: bold;
                     list-style: none !important;
                     margin-right: 4rem;
+                    color: #6A6A6A;
                 }
             }
         }
@@ -206,7 +211,7 @@ body{
         margin: 0.5rem 5rem 0 5rem;
         background-color: #D3F1FF;
         border-radius: 10px;
-        height: 440px;
+        height: 350px;
         display: flex;
         .slide-content-container{
             display: flex;
@@ -271,6 +276,7 @@ body{
         background-image: url('../public/bpt-card-ad.svg');
         background-repeat: no-repeat;
         background-size: 100%;
+        
 
 
 
@@ -295,7 +301,7 @@ body{
     }
 
     .first-shop-container{
-        padding: 4rem 5rem;
+        padding: 2rem 5rem 2rem 5rem;
         display: flex;
         margin-left: -1rem;
         .first-shop{
@@ -305,7 +311,7 @@ body{
             display: flex;
             width: 400px;
             margin-left: 2rem;
-            height: 220px;
+            height: 160px;
             
             .shop-image-container{
                 margin: 1rem 2rem;
@@ -334,6 +340,7 @@ body{
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    margin-top: -40px;
                     img{
                         margin-left: 0.5rem;
                     }
