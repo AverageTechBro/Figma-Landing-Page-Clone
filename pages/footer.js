@@ -145,6 +145,14 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      <div className="final-word-container">
+        <img
+          src="https://media.discordapp.net/attachments/1075680327718141992/1075987872131334204/Vector18.png"
+          alt=""
+        />
+
+        <p>2023 BT Planet. All Rights Reserved </p>
+      </div>
     </div>
   );
 }

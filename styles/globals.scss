@@ -37,6 +37,7 @@ body{
     }
 }
 .landing-page-container{
+    padding: 1rem 8rem;
     background-color:  #fafafa;;
     b{
         margin-left: 87rem;
@@ -47,6 +48,10 @@ body{
         font-family: Roboto;
     }
     .notification-top{
+        position: absolute;
+        width: 100vw;
+        left: 0;
+        top: 0;
         background-color: #9EC7F8;
         display: flex;
         flex: 1;
@@ -78,6 +83,10 @@ body{
         }
     }
     .navbar-container{
+        margin-top: 40px;
+        width: 100vw;
+        left: 0;
+        position: absolute;
         display: flex;
         align-items: center;
         padding: 0rem 5rem 0rem 5rem ;
@@ -180,6 +189,7 @@ body{
         }
     }
     .tag-container{
+        margin-top: 120px;
         font-weight: bold;
         color: #4F4F4F;
         display: flex;
@@ -211,7 +221,8 @@ body{
         margin: 0.5rem 5rem 0 5rem;
         background-color: #D3F1FF;
         border-radius: 10px;
-        height: 350px;
+        height: 320px;
+        
         display: flex;
         .slide-content-container{
             display: flex;
@@ -275,8 +286,7 @@ body{
     .swiper-slide-active{
         background-image: url('../public/bpt-card-ad.svg');
         background-repeat: no-repeat;
-        background-size: 100%;
-        
+        background-size: 100%;        
 
 
 
@@ -288,6 +298,8 @@ body{
         height: 40px !important;
         margin-left: 2.8rem !important ;
         box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.25);
+        top: 35%;
+        left: 7%;
         
     }  
      .swiper-button-next{
@@ -297,6 +309,8 @@ body{
         border-radius: 50%;
         height: 40px !important;
         box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.25);
+        top: 35%;
+        right: 7%;
         
     }
 
@@ -309,7 +323,7 @@ body{
             box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
             border-radius: 5px;
             display: flex;
-            width: 400px;
+            width: 350px;
             margin-left: 2rem;
             height: 160px;
             
@@ -427,14 +441,15 @@ body{
             }
     }
     .home-mainshop-container{
-        padding: 1rem 5rem;
+        transform: translateX(-10px);
+        padding: 1rem 0rem;
         display: flex;
         justify-content: center;
         .mainshop-container{
-            max-width: 450px;
-            min-width: 300px;
-            padding: 10px;
-            margin-right: 3rem;
+            max-width: 350px;
+            min-width: 280px;
+            padding: 0 10px;
+            margin-right: 0.9rem;
             height: 520px;
             background-color: #FFFFFF;
             border: 1px solid #E7E7E7;
@@ -483,16 +498,16 @@ body{
                 .left-side{
                     display: flex;
                     flex-direction: column;
-                    margin-left: -2rem;
+                    margin-left: -0.5rem;
                     .real-price{
                         margin-bottom: -10px;
                         span{
-                            font-size: 23px;
+                            font-size: 20px;
                             font-weight: bold;
                             color: black;
                         }
                         color: #007BFF;
-                        font-size: 23px;
+                        font-size: 20px;
                         font-weight: bold;
                     }
                     .previous-price{
@@ -602,9 +617,16 @@ body{
         }
     }
     .home-footer-container{
-        background-color: #F3F3F3;
+   
+        
         padding: 1rem 5rem;
+       
         .footer-container{
+            position: absolute;
+            left: 0;
+            padding: 0 0 0 0;
+            margin-left: 5rem;
+            width: 90vw;
             .top-section{
                 display: flex;
                 justify-content: space-between;
@@ -627,10 +649,15 @@ body{
             }
             .bottom-section{
                 color: #6A6A6A;
+                background-color: #F3F3F3;
+                width: 100vw;
+                margin-left: -5rem;
+                padding-bottom: 3rem;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 .download-section{
+                    padding-left: 5rem;
                     img:first-child{
                         margin-right: 1rem;
                     }
@@ -675,8 +702,10 @@ body{
         }
     }
     .final-word-container{
-        padding: 4rem 5rem 1rem 5rem;
+        
         background-color: #F3F3F3;
+        margin-left: -5rem;
+        width: 100vw;
         display: flex;
         justify-content: center;
         color: #848484;
@@ -1184,6 +1213,18 @@ body{
     .laptop-showcase-container{
         max-height: 307px;
         
+        
+    }
+    .swiper-slide-active{
+        background-image: url('../public/bpt-card-ad.svg');
+        background-repeat: no-repeat;
+        background-size: 130% !important;        
+
+
+
+    }
+    .landing-page-container{
+        padding: 1rem 3rem !important;
     }
     .navbar-container{
        
@@ -1197,6 +1238,15 @@ body{
     .swiper-button-prev,
     .swiper-button-next{
         margin-top: 0rem !important;
+        
+    }
+    .swiper-button-next{
+        right: 3.5% !important;
+        top: 40% !important;
+    }
+    .swiper-button-prev{
+        left: 3.5% !important;
+        top: 40% !important;
     }
     .first-shop-container{
         padding: 3rem 2rem !important;
@@ -1207,18 +1257,23 @@ body{
         }
     }
     .first-shop{
-        width: 300px !important;
+        width: 280px !important;
         max-height: 200px;
         margin-right: -1rem !important;
         .shop-image-container{
-            width: 179px !important;
-            height: 140px;
-            margin: 0 0 0 1rem !important;
-            margin-top: 2rem!important;
+            width: 149px !important;
+            height: 120px;
+            margin: 0 0 0 0.5rem !important;
+            margin-top: 1rem!important;
         img{
-            width: 100px !important ;
+            width: 80px !important ;
         }
-    }
+       
+    } 
+    P{
+        margin-left: 1.25rem;
+     }
+
     button{
         padding: 15px 5px !important;
         max-width: 120px !important;
@@ -1262,7 +1317,6 @@ body{
     }
     .home-mainshop-container{
        
-        padding: 1rem 3rem !important;
         .mainshop-container:first-child{
             margin-left: 1.5rem !important;
         }
@@ -1272,6 +1326,9 @@ body{
                     margin-left: 10rem !important;
                 }
             }
+        }
+        .mainshop-container:last-child{
+            display: none;
         }
         .mainshop-container{
             min-width: 240px !important;
@@ -1311,16 +1368,19 @@ body{
     .brand-container{
         margin-top: 2rem;
         img{
-            margin-right: 4rem !important;
-            width: 160px !important;
-            height: 50px !important;
+            margin-right: 3rem !important;
+            width: 150px !important;
+            height: 40px !important;
             &:first-child{
                 margin-left: 5rem ;
             }
         }
     }
     .home-stats-container{
-        padding: 5rem 5rem !important;
+        padding: 5rem 4rem !important;
+    }
+    .main-stats-container:first-child{
+        margin-left: 4rem !important;
     }
     .main-stats-container:not(:first-child){
         margin-left: 1rem !important;
