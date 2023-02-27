@@ -104,13 +104,16 @@ body{
                 position: relative;
                 &::before{
                     content: '0';
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                     top: -8px;
                     left: 15px;
                     position: absolute;
                     background-color: #AB2A20;
-                    border-radius: 50%;
+                    border-radius: 55%;
                     color: white;
-                    font-weight: bold;
+                    font-size: 14px;
                     width: 15px;
                     padding: 5px;
                     height: 20px;
