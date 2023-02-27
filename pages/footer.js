@@ -3,6 +3,26 @@ export default function Footer() {
     <div className="footer-container">
       <div className="top-section">
         <div className="top-footer-slide">
+          <h3>INFORMATION</h3>
+          <ul>
+            <li>Terms & conditions</li>
+            <li>FAQs</li>
+            <li>Payment Methods</li>
+            <li>Pricacy Policy</li>
+            <li>Shipping and Handling</li>
+            <li>Customer Service</li>
+          </ul>
+        </div>
+        <div className="top-footer-slide">
+          <h3>Projector</h3>
+          <ul>
+            <li>Infocus Genesis</li>
+            <li>Infocus in IN114AA</li>
+            <li>infocus in IN134 400</li>
+            <li>Infocus in 134HD</li>
+          </ul>
+        </div>
+        <div className="top-footer-slide">
           <h3>Laptop</h3>
           <ul>
             <li>Acer</li>
@@ -12,33 +32,25 @@ export default function Footer() {
             <li>Lenovo</li>
           </ul>
         </div>
+
         <div className="top-footer-slide">
-          <h3>Projector</h3>
+          <h3>Printer</h3>
           <ul>
-            <li>Infocus Genesis</li>
-            <li>Infocus in IN114AA</li>
-            <li>infocus in IN134 400</li>
-            <li>Infocus in 134HD</li>
+            <li>Xerox</li>
+            <li>Brother</li>
+            <li>Epson</li>
+            <li>Canon</li>
+            <li>HP</li>
           </ul>
         </div>
         <div className="top-footer-slide">
-          <h3>Projector</h3>
+          <h3>Desktop</h3>
           <ul>
-            <li>Infocus Genesis</li>
-            <li>Infocus in IN114AA</li>
-            <li>infocus in IN134 400</li>
-            <li>Infocus in 134HD</li>
-          </ul>
-        </div>
-        <div className="top-footer-slide">
-          <h3>INFORMATION</h3>
-          <ul>
-            <li>Terms & conditions</li>
-            <li>FAQs</li>
-            <li>Payment Methods</li>
-            <li>Pricacy Policy</li>
-            <li>Shipping and Handling</li>
-            <li>Customer Service</li>
+            <li>Dell</li>
+            <li>Asus</li>
+            <li>Lenovo</li>
+            <li>Hp</li>
+            <li>Acer</li>
           </ul>
         </div>
         <div className="top-footer-slide">
