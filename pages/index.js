@@ -1,3 +1,5 @@
+import IISectionedShop from "./II-sectioned-shop";
+import SectionShop from "./section-shop";
 import Head from "next/head";
 import Image from "next/image";
 import Logo from "next/image";
@@ -67,39 +69,10 @@ export default function Home() {
       <div className="laptop-showcase-container">
         <div className="swiper">
           <div className="swiper-wrapper">
-            <div className="swiper-slide">
-              <div className="slide-content-container">
-                <img
-                  className="acer-nitro-I"
-                  src="https://media.discordapp.net/attachments/1075680327718141992/1075683415506026496/Nitro5-1024x731_1.png"
-                  alt=""
-                />
-                <div className="laptop-showcase-text">
-                  <div className="slide-header-container">
-                    <h1>Acer Nitro</h1>
-                    <p>Discounted Price</p>
-                  </div>
-                  <button>
-                    SHOP NOW{" "}
-                    <span>
-                      <img
-                        src="https://media.discordapp.net/attachments/1075680327718141992/1075685739037212725/Icon_Stroke.png"
-                        alt=""
-                      />
-                    </span>
-                  </button>
-                </div>
-                <img
-                  className="acer-nitro"
-                  src="https://media.discordapp.net/attachments/1075680327718141992/1075683415766085683/acer_1.png"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="swiper-slide">Dummy Text</div>
-            <div className="swiper-slide">Dummy Text </div>
-            <div className="swiper-slide">Dummy Text</div>
-            <div className="swiper-slide">Dummy Text</div>
+            <div className="swiper-slide">.</div>
+            <div className="swiper-slide">. </div>
+            <div className="swiper-slide">.</div>
+            <div className="swiper-slide">.</div>
           </div>
 
           <div className="swiper-pagination"></div>
@@ -182,15 +155,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <PromoCard
-        title={"Lowest Prices "}
-        titleII={"on Pre Sales!"}
-        secondColor={"#000000"}
-        firstColor={"#AE3027"}
-      />
+      <SectionShop />
       <div className="position-one-time">
         <p className="mainshop-I-title">
-          <span>Deals</span> of the Week! <b>View All</b>
+          <span>Deals</span> of the Week! <button>View All</button>
         </p>
 
         <div className="home-mainshop-container">
@@ -251,15 +219,10 @@ export default function Home() {
           />
         </div>
       </div>
-      <PromoCard
-        title={" Killer"}
-        titleII={"Deals"}
-        firstColor={"#000000"}
-        secondColor={"#AE3027"}
-      />
+      <IISectionedShop />
       <div className="position-one-time-II">
         <p className="mainshop-I-title">
-          <span>Up to 70% OFF</span> Laptops!! <b>View All</b>{" "}
+          <span>Up to 70% OFF</span> Laptops!! <button>View All</button>{" "}
         </p>
         <div className="home-mainshop-container">
           <MainShop
@@ -321,7 +284,7 @@ export default function Home() {
       </div>
       <div className="position-one-time">
         <p className="mainshop-I-title">
-          <span>Gaming</span> Series! <b>View All</b>{" "}
+          <span>Gaming</span> Series! <button>View All</button>{" "}
         </p>
         <div className="home-mainshop-container">
           <MainShop
@@ -383,7 +346,7 @@ export default function Home() {
       </div>
       <div className="position-one-time">
         <p className="mainshop-I-title">
-          <span>Partner</span> Brands{" "}
+          <span>Partner</span> Brands <button>View All</button>
         </p>
         <Brand />
       </div>

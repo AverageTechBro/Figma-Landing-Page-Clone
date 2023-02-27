@@ -1,12 +1,10 @@
+import Image from "next/image";
 export default function Stats() {
   return (
     <div className="stats-container">
       <div className="main-stats-container">
         <div className="content-container">
-          <img
-            src="https://media.discordapp.net/attachments/1075680327718141992/1075972170724937849/Vector7.png"
-            alt=""
-          />
+          <Image src="/stats-calender.svg" width={100} height={100} />
           <p>
             Years <br />
             <span>4+</span>
@@ -16,10 +14,8 @@ export default function Stats() {
       </div>
       <div className="main-stats-container">
         <div className="content-container">
-          <img
-            src="https://media.discordapp.net/attachments/1075680327718141992/1075972170502643754/Group_393.png"
-            alt=""
-          />
+          <Image src="/stats-people.svg" width={100} height={100} />
+
           <p>
             Happy Customers <br />
             <span>500+</span>
@@ -29,10 +25,8 @@ export default function Stats() {
       </div>
       <div className="main-stats-container">
         <div className="content-container">
-          <img
-            src="https://media.discordapp.net/attachments/1075680327718141992/1075972170280341504/Vector8.png"
-            alt=""
-          />
+          <Image src="/stats-thumbs.svg" width={100} height={100} />
+
           <p>
             Quality Checked <br />
             <span>99%</span>
@@ -42,10 +36,7 @@ export default function Stats() {
       </div>
       <div className="main-stats-container">
         <div className="content-container">
-          <img
-            src="https://media.discordapp.net/attachments/1075680327718141992/1075972170074828861/service.png"
-            alt=""
-          />
+          <Image src="/stats-computer.svg" width={100} height={100} />
           <p>Best Service</p>
         </div>
       </div>
