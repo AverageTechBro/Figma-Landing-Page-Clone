@@ -1,7 +1,11 @@
+@import 'login-page.scss';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import 'rv-first.scss';
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import 'registration.scss';
+@import 'cart.scss';
 body{
     padding: 0;
     margin: 0;
@@ -191,7 +195,7 @@ body{
                 justify-content: center;
                 align-items:center;
                 img{
-                    width: 22px;
+                    width: 32px;
                     margin-right: 10px;
                 }
             }
@@ -752,9 +756,10 @@ body{
                 padding: 1rem 0  !important;
             }
         }
+        }
     .search-result{
         padding: 1rem 5rem;
-        
+        transform: translateY(120px);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -782,8 +787,9 @@ body{
     }
     .flex-for-shop{
         display: flex;
+        margin-top: 9rem;
     .filter-bar-container{
-        margin: 4rem 0rem 1rem 5rem ;
+        margin: rem 0rem 1rem 0rem ;
         box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.25);
         display: flex;
         max-height: 800px;
@@ -846,7 +852,7 @@ body{
         }
     }
 }
-    }
+    
 }
 .thirdpage-container{
     .navbar-container{

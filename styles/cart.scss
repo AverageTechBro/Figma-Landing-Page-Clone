@@ -1,0 +1,205 @@
+.cart-container{
+    padding: 0rem 7rem;
+    .stats-container{
+        margin-bottom: 4rem;
+    }
+    .cart-content-container{
+        .actual-cart-container{
+            display: flex;
+            flex: 2f 1f;
+        }
+        .actual-cart{
+            width: 65vw;
+        }
+   
+        margin-top: 140px;
+
+        .cart-title{
+            color: #007BFF;
+            font-size: 27px;
+            letter-spacing: 1px;
+            font-weight: 500;
+        }
+        .select-items{
+            display: flex;
+            background-color: #F7F7F7;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 5px;
+            width: 64vw;
+            .select-option{
+                margin-left: 2vw;
+                display: flex;
+                color: #6A6A6A;
+                font-weight: 500;
+                align-items: center;
+                letter-spacing: 1px;
+                input{
+                    width: 25px ;
+                    height: 25px;
+                }
+            }
+            p{
+                margin-right: 4vw;
+                display: flex;
+                font-size: 18px;
+                color: #00000080;
+                align-items: center;
+                span{
+                    font-weight: 500;
+                    margin-left: 0.5rem;
+                    color: black;
+                }
+                img{
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+        .ind-cart-container{
+            display: flex;
+            border: 1px solid rgba(211, 211, 211, 0.389);
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 8px;
+            margin: 1rem 0 2rem 0;
+            .left-side{
+                display: flex;
+                align-items:flex-start;
+                margin-left: 2rem;
+                input{
+                    width: 25px;
+                    height: 25px;
+                    margin-top: 12vh;
+                    margin-right: 1rem;
+                }
+                .cart-thumbnail{
+                    width: 250px;
+                    height: 250px;
+                }
+                .text{
+                    margin-left: 2rem;
+                    margin-top: 1.5rem;
+                    .specs{
+                        color: #000000A3;
+                        font-size: 19px;
+                        font-weight: 500;
+                        max-width: 350px;
+                        line-height: 30px;
+                        letter-spacing: 1.2px;
+                        span{
+                            font-size: 14px;
+                            color: #8D8D8D;
+                            letter-spacing: 0.1px;
+                            font-weight: lighter;
+                        }
+                    }
+                    .quantity{
+                        color: #848484;
+                        margin-top: 2.5rem;
+                    }
+                }
+                
+            }
+            .price-info{
+                margin-left: -7vw;
+                display: flex;
+                flex-direction: column;
+                .price{
+                    color: #007BFF;
+                    font-size: 27px;
+                    display: flex;
+                    align-items: center;
+                    font-weight: bold;
+                    span{
+                        color: #000000;
+                        font-weight: bold;
+                    }
+                }
+                .delete{
+                    margin-top: -0rem;
+                    display: flex;
+                    align-items: center;
+                    color: #6A6A6A;
+                    font-size: 21px;
+                    img{
+                        margin-right: 0.5rem;
+                    }
+                }
+            }
+            .add-quantity-container{
+                display: flex;
+                align-items: center;
+                transform: translateX(-5vw);
+                button{
+                    width: 100px;
+                    height: 35px;
+                    border-radius: 30px;
+                    font-size: 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-weight: bold;
+                    background-color: #007BFF;
+                    color: white;
+
+                }
+                p{
+                    margin: 0 1rem;
+                    font-size: 27px;
+                    font-weight: 500;
+                }
+            }
+
+        }
+        .order-summary{
+            display: flex;
+            flex-direction: column;
+            box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 6px;
+            width: 28%;
+            height: 500px;
+            margin-left: 2rem;
+            margin-top: -5rem;
+            border: 1px solid rgba(211, 211, 211, 0.389);
+            h3{
+                margin-left: 2rem;
+                font-weight: 500;
+                font-size: 24px;
+                margin-top: 3rem;
+                margin-bottom: 2rem;
+            }
+            p{
+                margin-left: 2rem;
+                display: flex;
+                justify-content: space-between;
+                color: #6A6A6A;
+                font-size: 19px;
+                span{
+                    margin-right: 2rem;
+                }
+                b{
+                    font-weight: 500;
+                    color: #007BFF;
+                }
+            }
+            button{
+
+                margin-left: 3rem;
+                width: 80%;
+                margin-top: 4rem;
+                height: 60px;
+                background-color: #007BFF;
+                color: white;
+                font-family: Inter;
+                font-weight: 600;
+                letter-spacing: 1.4px;
+                text-align: center;
+                border-radius: 10px;
+                border: none;
+                font-size: 18px
+            }
+        }
+    }
+}

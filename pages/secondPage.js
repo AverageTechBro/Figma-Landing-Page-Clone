@@ -1,7 +1,7 @@
 import Navbar from "./navbar";
 import Footer from "./footer";
 import Notification from "./notificationTop";
-import MainShopRow from "./mainshoprow";
+import MainShopRow from "./components/mainshoprow";
 import { useState } from "react";
 export default function Second() {
   const [isOpen, setIsOpen] = useState(false);

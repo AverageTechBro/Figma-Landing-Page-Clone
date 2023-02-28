@@ -1,8 +1,8 @@
 import Navbar from "./navbar";
 import Footer from "./footer";
-import Stats from "./stats";
-import MainShopRow5 from "./mainshoprow5";
-import Tags from "./tags";
+import Stats from "./components/stats";
+import MainShopRow5 from "./components/mainshoprow5";
+import Tags from "./components/tags";
 import Notification from "./notificationTop";
 export default function Third() {
   return (

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,7 +9,7 @@ export default function Navbar() {
   }
   return (
     <div className="navbar-container">
-      <img className="Logo" src="https://i.imgur.com/ygucKR3.png" alt="" />
+      <Image className="Logo" src={"/logo.svg"} width={200} height={70} />
       <div className="search-bar">
         <input type="text" placeholder="What are you looking for?" />
         <button className="search-buton">
@@ -18,26 +19,12 @@ export default function Navbar() {
       <ul className="pc-ul">
         <div className="right-side">
           <div className="shop">
-            <img
-              className="cart-icon"
-              src="https://media.discordapp.net/attachments/1075680327718141992/1075680414976462859/cart.png"
-              alt=""
-            />
-            <Link href="/secondPage">
-              Cart{" "}
-              <img
-                className="down-vector"
-                src="https://media.discordapp.net/attachments/1075680327718141992/1075694872079642684/Vector4.png"
-                alt=""
-              />{" "}
-            </Link>
+            <Image src={"/cart.svg"} width={30} height={30} />
+            <Link href="/secondPage">Cart </Link>
           </div>
           <Link href="/thirdpage">
             <div className="sign-in">
-              <img
-                src="https://media.discordapp.net/attachments/1075680327718141992/1075681453951696957/Vector1.png"
-                alt=""
-              />
+              <Image src={"/bpt-person-icon.svg"} width={50} height={50} />
               <p>Sign In</p>
             </div>
           </Link>

@@ -1,0 +1,151 @@
+a{
+    text-decoration: none;
+    color: inherit ;
+}
+.loginpage-container{
+    font-family: Roboto;
+    display: flex;
+    .left-side{
+        background-color: #D9EBFF;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        img{
+              width: 700px;
+              height: 490px;
+              margin-left: -1rem;
+              margin-top: 20vh;
+              
+        }
+    }
+    .right-side{
+        margin-top: 5rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            margin-bottom: 2rem;
+        }
+
+        .search-boxes {
+            
+          
+            box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.25);
+            border-radius: 5px;
+            height: 60px;
+            width: 500px;
+            margin-bottom: 2rem;
+            border: none;
+            padding:0 1rem ;
+            &::placeholder{
+                font-weight: 500;
+                font-family: Roboto;
+                color: #00000064;
+            }
+        }
+        input[placeholder="Enter username"]{
+            background-image:url(../public/bpt-checkmark.svg) ;
+            background-repeat: no-repeat;
+            background-position: (95%) center;
+        }
+        input[placeholder="Password"]{
+            background-image:url(../public/bpt-showpassword.svg) ;
+            background-repeat: no-repeat;
+            background-position: (95%) center;
+        }
+        .login-confirmation{
+            margin-top: -1rem;
+            margin-bottom: 2rem;
+            input{
+                border: 1px solid #B0B0B0;
+
+            }
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 43%;
+            p{
+                
+                color: #6A6A6A;
+                font-weight: 400;
+                font-size: 15px;
+                letter-spacing: 0.1px;
+            }
+            a{
+                text-decoration: none;
+                color: #007BFF;
+            }
+        }
+        .big-button{
+            margin-bottom: 1.5rem;
+            width: 40%;
+            height: 60px;
+            background-color: #007BFF;
+            color: white;
+            font-family: Inter;
+            font-weight: 600;
+            letter-spacing: 1.4px;
+            text-align: center;
+            border-radius: 10px;
+            border: none;
+            font-size: 18px
+        }
+        h3{
+            font-weight: 400;
+            margin-bottom: 2rem;
+            color: #9E9E9E;
+            font-size: 16px;
+            text-align: center;
+        }
+        .alt-login-option{
+            display: flex;
+            margin-bottom: 2rem;
+            justify-content: space-between;
+            width: 46%;
+            .google{
+                border: 1px solid #E7E7E7;
+                background-color: white;
+                background-image:url(../public/google.svg) ;
+                background-repeat: no-repeat;
+                width: 200px;
+                border-radius: 10px;
+                height: 50px;
+                background-position: (5%)  (85%);
+                background-size: 18%;
+                padding: 5px 10px 5px 40px;
+                font-family: Inter;
+                color: #8D8D8D;
+                font-size: 15px;
+                font-weight: 600;
+            }
+            .facebook{
+                background-color: #4C69BA;
+                width: 220px;
+                background-image:url(../public/facebook.svg) ;
+                background-repeat: no-repeat;
+                background-position: (7%) center;
+                font-family: Inter;
+                background-size: 12%;
+                font-weight: 600;
+                border-radius: 5px;
+                border: none;
+                color: #F7F7F7;
+                padding: 5px 10px 5px 40px;
+                font-size: 15px;
+            }
+            }
+            p{
+                color: #00000052;
+                font-size: 20px;
+                font-weight: 500;
+                
+                letter-spacing: 2px;
+                a{
+                    color: #007BFF;
+                    text-decoration: none;
+                }
+            }
+    }
+    
+}

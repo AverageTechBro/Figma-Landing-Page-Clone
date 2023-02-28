@@ -1,16 +1,16 @@
-import IISectionedShop from "./II-sectioned-shop";
-import SectionShop from "./section-shop";
+import IISectionedShop from "./components/II-sectioned-shop";
+import SectionShop from "./components/section-shop";
 import Head from "next/head";
 import Image from "next/image";
 import Logo from "next/image";
 import Link from "next/link";
 import { Inter } from "@next/font/google";
 import { useEffect, useState } from "react";
-import PromoCard from "./promocard";
-import MainShop from "./mainshop";
+
+import MainShop from "./components/mainshop";
 import Navbar from "./navbar";
-import Brand from "./brand";
-import Stats from "./stats";
+import Brand from "./components/brand";
+import Stats from "./components/stats";
 import Footer from "./footer";
 import Notification from "./notificationTop";
 // import Swiper styles
