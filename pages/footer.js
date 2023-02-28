@@ -76,19 +76,21 @@ export default function Footer() {
                 src="https://media.discordapp.net/attachments/1075680327718141992/1075980280441086012/Vector16.png"
                 alt=""
               />
-              info@Btplanet.com.Np <br />
+              info@btplanet.com.np <br />
               <img
                 src="https://media.discordapp.net/attachments/1075680327718141992/1075980280441086012/Vector16.png"
                 alt=""
               />
-              Btplanetstore12@gmail.com
+              btplanetstore12@gmail.com
             </li>
             <li>
               <img
                 src="https://media.discordapp.net/attachments/1075680327718141992/1075980280071991416/Vector17.png"
                 alt=""
               />
-              http://btplanet.com.np
+              <a href="https://www.hugedomains.com/domain_profile.cfm?d=btplanet.com">
+                www.btplanet.com.np
+              </a>
             </li>
           </ul>
         </div>
