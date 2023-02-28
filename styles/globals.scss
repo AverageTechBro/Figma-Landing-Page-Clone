@@ -107,16 +107,16 @@ body{
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    top: -8px;
+                    top: -1px;
                     left: 15px;
                     position: absolute;
                     background-color: #AB2A20;
-                    border-radius: 55%;
+                    border-radius: 50%;
                     color: white;
                     font-size: 14px;
-                    width: 15px;
+                    width: 12px;
                     padding: 5px;
-                    height: 20px;
+                    height: 12px;
                     text-align: center;
                 }
             }
@@ -131,24 +131,28 @@ body{
             margin-left: 1.5rem;
             margin-right: 24rem;
             input{
-                border: none;
+                border: 1px solid #007BFF;
                 background-color: #F7F7F7;
-                border-radius: 2px;
+                border-radius: 2px 0 0 2px;
                 width: 800px;
                 height: 48px;
                 padding: 0 0 0 1rem;
 
+                &:focus{
+                    border: 1px solid #e64d42 ;
+                    outline: none;
+                }
                 
             }
           
             button{
-                height: 48px;
+                height: 48\9px;
                 background-color: #007BFF;
                 width: 70px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                border-radius: 2px;
+                border-radius: 0 2px 2px 0px;
                 img{
                     width: 26px;
                 }
@@ -630,13 +634,26 @@ body{
             position: absolute;
             left: 0;
             padding: 0 0 0 0;
-            background-color:#fafafa;
+            background-color:#fdfcfd;
             margin-left: 5rem;
   
             width: 90vw;
             .top-section{
                 display: flex;
                 justify-content: space-around;
+                .top-footer-slide:last-child{
+                    li:first-child{
+                        margin-bottom: 1rem;
+                        position: relative;
+                        margin-left: -0.35rem;
+                        span{
+                            position: absolute;
+                            top: 50%;
+                            left: 22px;
+                            white-space: nowrap;
+                        }
+                    }
+                }
                 .top-footer-slide{
                     h3{
                         margin-left: 2.5rem;
@@ -647,6 +664,7 @@ body{
                             list-style: none;
                             color: #6A6A6A;
                             line-height: 47px;
+                          
                             img{
                                 margin-right: 0.6rem;
                             }

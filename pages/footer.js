@@ -61,7 +61,8 @@ export default function Footer() {
                 src="https://media.discordapp.net/attachments/1075680327718141992/1075980940007981086/Frame.png"
                 alt=""
               />
-              Putalisadak, Opposite Machhapuchhre Bank
+              Putalisadak, Kathmandu Nepal <br />
+              <span>(Opposite Machhapuchhre Bank)</span>
             </li>
             <li>
               <img
@@ -75,7 +76,12 @@ export default function Footer() {
                 src="https://media.discordapp.net/attachments/1075680327718141992/1075980280441086012/Vector16.png"
                 alt=""
               />
-              info@Btplanet.com.Np/Btplanetstore12@gmail.com
+              info@Btplanet.com.Np <br />
+              <img
+                src="https://media.discordapp.net/attachments/1075680327718141992/1075980280441086012/Vector16.png"
+                alt=""
+              />
+              Btplanetstore12@gmail.com
             </li>
             <li>
               <img
