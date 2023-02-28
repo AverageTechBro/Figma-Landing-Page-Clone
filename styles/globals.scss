@@ -298,9 +298,9 @@ body{
     }
     .swiper-button-prev{
         background-color: white;
-        padding: 0.6rem 1.1rem;
+        padding: 0.6rem 0.7rem;
         border-radius: 50%;
-        height: 40px !important;
+        height: 30px !important;
         margin-left: 2.8rem !important ;
         box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.25);
         top: 35%;
@@ -309,10 +309,10 @@ body{
     }  
      .swiper-button-next{
         background-color: white;
-        padding: 0.6rem 1.1rem;
+        padding: 0.6rem 0.7rem;
         margin-right: 2.8rem !important ;
         border-radius: 50%;
-        height: 40px !important;
+        height: 30px !important;
         box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.25);
         top: 35%;
         right: 7%;
@@ -636,7 +636,7 @@ body{
             width: 90vw;
             .top-section{
                 display: flex;
-                justify-content: space-between;
+                justify-content: space-around;
                 .top-footer-slide{
                     h3{
                         margin-left: 2.5rem;
@@ -662,9 +662,9 @@ body{
                 padding-bottom: 3rem;
                 display: flex;
                 align-items: center;
-                justify-content: space-between;
+                justify-content: space-around;
                 .download-section{
-                    padding-left: 5rem;
+                    padding-left: 4rem;
                     img:first-child{
                         margin-right: 1rem;
                     }
