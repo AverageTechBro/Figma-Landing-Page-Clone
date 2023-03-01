@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-export default function Navbar() {
+export default function SignedIn() {
   const [isOpen, setIsOpen] = useState(false);
 
   function toggleDropdown() {
@@ -26,8 +26,8 @@ export default function Navbar() {
           </div>
           <Link href="/thirdpage">
             <div className="sign-in">
-              <Image src={"/bpt-person-icon.svg"} width={50} height={50} />
-              <p>Sign In</p>
+              <Image src={"/Mr-SG.svg"} width={50} height={50} />
+              <p>Welcome, Saul</p>
             </div>
           </Link>
         </div>

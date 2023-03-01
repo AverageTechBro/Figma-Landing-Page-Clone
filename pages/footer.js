@@ -76,7 +76,7 @@ export default function Footer() {
                 src="https://media.discordapp.net/attachments/1075680327718141992/1075980280441086012/Vector16.png"
                 alt=""
               />
-              info@btplanet.com.np <br />
+              info@byt planet.com.np <br />
               <img
                 src="https://media.discordapp.net/attachments/1075680327718141992/1075980280441086012/Vector16.png"
                 alt=""

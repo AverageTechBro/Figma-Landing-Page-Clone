@@ -1,7 +1,10 @@
 button{
     border: none;
 }
-.cart-container{
+
+.cart-container,
+.edit-profile-container,
+.my-order-container{    
 font-family: Roboto;
         .stats-container{   
             margin-top: 10rem;
@@ -310,9 +313,13 @@ font-family: Roboto;
             display: flex;
             justify-content: center;
             align-items:center;
+            min-width: 100px;
             img{
                 width: 32px;
                 margin-right: 10px;
+            }
+            p{
+                min-width: 120px;
             }
         }
     }

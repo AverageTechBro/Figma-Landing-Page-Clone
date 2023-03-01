@@ -1,0 +1,146 @@
+.my-order-container{
+    padding: 0;
+    padding: 0 11rem;
+    .tag-container{
+        margin-left: -3rem;
+    }
+    .stats-container{
+        margin-bottom: 8rem;
+    }
+    .my-order-content{
+        transform: translateY(10rem);
+        margin-bottom: 20rem;
+        .top-section{
+            display: flex;
+        }
+        .right-side{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #FFFFFF;
+            box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.25);
+            border-radius: 6px;
+            padding: 1rem 2rem;
+            border: 1.5px solid rgba(211, 211, 211, 0.442);
+            h3{
+                text-align: center;
+                font-family: Roboto;
+                font-weight:500 ;
+                font-size: 24px;
+                letter-spacing: 1.4px;
+                margin-bottom: 2rem;
+               
+
+            }
+            .right-content{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+
+                p{
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 40px;
+                    b{
+                        font-weight: 400;
+                        margin-right: 10rem;
+                    }
+                    span{
+                        color: #848484;
+                        background-image: url(../public/clock-innit.svg) ;
+                        background-repeat: no-repeat;
+                        background-position: 100% 00%;
+                        padding: 0 2rem 0 0 ;
+                        line-height: 60px;
+                    }
+                }
+                .mid-part{
+                    display: flex;
+                    position: relative;
+                    align-items: center;
+                    margin-right: 2rem;
+                    img{
+                        width: 260px;
+
+                    }
+                    p{
+                        max-width: 250px;
+                        font-size: 16px;
+                        margin-top: -4rem;
+                        line-height: 25px;
+                        color: #0000007A;
+                    }
+                    h4{
+                        position: absolute;
+                        bottom: 15%;
+                        font-family: Roboto;
+                        font-weight: 500;
+                        left: 52%;
+                        font-size: 20px;
+                        span{
+                            color: #007BFF;
+                        }
+                    }
+                }
+                .end-part{
+                    color: #007BFF;
+                    padding: 0 2rem;
+                    margin-top: -4rem;
+                    p{
+                        background-image: url(../public/hand-me-money.svg);
+                        background-repeat: no-repeat;
+                        background-position: 0% center;
+                        background-size: 17%;
+                        padding:  0 0 0 2rem;
+                    }
+                    button{
+                        background-color: #E60000;
+                        color: white;
+                        border-radius: 8px;
+                        font-size: 17px;
+                        width: 170px;
+                        padding: 0.5rem 1rem;
+                        height: 50px;
+                        font-family: Inter;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+    .dashboard-container{
+        padding:0.5rem 2rem 2rem 2rem;
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+        box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.25);
+        border: 1.5px solid rgba(211, 211, 211, 0.442);;
+        border-radius: 6px;
+        width: 300px;
+        margin-right: 2rem;
+        h3{
+            margin-left: 8px;
+        }
+        p{
+            display: flex;
+            align-items: center;
+            color: #848484;
+            font-weight: 500;
+            position: relative;
+            font-size: 18px;
+            img{
+                margin-right: 10px;
+                width: 30px;
+                height: 30px;
+            }
+            span{
+               font-size: 16px;
+               color: #848484;
+               position: absolute;
+               right: 2%;
+            }
+        }
+        
+
+    }
+}

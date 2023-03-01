@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+.contact-container{
+    .edit-profile-container{
+        padding: 0 13rem;
+        .tag-container{
+            margin-left: -4.8rem ;
+            padding-bottom: 60rem;
+        }
+        .edit-profile-content{
+            transform: translateY(10rem);
+            display: flex;
+            margin-bottom: 20rem;
+            background: #FFFFFF;
+            box-shadow: 2px 3px 9px rgba(0, 0, 0, 0.25);
+            border: 1.5px solid rgba(211, 211, 211, 0.442);;
+            position: absolute;
+            top: 5%;
+
+            left: 10%;
+
+            padding: 2rem 0;
+            z-index: 999;
+            
+            border-radius: 5px;
+            h3{
+                color: #1D2F42;
+                font-family: Roboto;
+                font-weight: 500;
+                letter-spacing: 1px;
+            }
+            .left-side{
+                display: flex;
+                flex-direction: column;
+                margin-right:4rem;
+                margin-top: 0rem;
+                
+                .user-profile{
+                    background: #FFFFFF;
+                    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+                    border-radius: 6px;
+                    width: 17vw;
+                    height: 13rem;
+                    display: flex;
+                    flex-direction: column;
+                    border: 1.5px solid rgba(211, 211, 211, 0.442);;
+                    background-image: url(../public/edit.svg);
+                    background-repeat: no-repeat;
+                    background-position: 90% 10%;
+                    background-size: 11%;
+                    margin-bottom: 2rem;
+                    img{
+                        min-width: 90px;
+                        max-width: 90px;
+                        height: 90px;
+                        border-radius: 50%;
+                        margin-left: 1.75rem;
+                        margin-top: 1rem;
+                    }
+                    p{
+                        margin-left: 1.75rem;
+                        color: #4F4F4F;
+                        font-size: 19px;
+                        font-weight: 500;
+                        span{
+                          
+                            font-size: 14px;
+                            color: #7D879C;
+                        }
+                    }
+                }
+                .dashboard-container{
+                    padding:0.5rem 2rem 2rem 2rem;
+                    margin-left: 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    background: #FFFFFF;
+                    box-shadow: none;
+                    border: none;
+                    border-radius: 6px;
+                    h3{
+                        margin-left: 8px;
+                    }
+                    .big-image{
+                        margin-bottom: 2rem;
+                    }
+                  
+                    p{
+                        display: flex;
+                        align-items: center;
+                        color: #848484;
+                        font-weight: 500;
+                        position: relative;
+                        font-size: 18px;
+                        img{
+                            margin-right: 10px;
+                            width: 30px;
+                            height: 30px;
+                        }
+                        span{
+                           font-size: 16px;
+                           color: #848484;
+                           position: absolute;
+                           right: 2%;
+                        }
+                    }
+                    
+    
+                }
+            }
+            .right-side{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                color: #6A6A6A;
+                h1{
+                    transform: translateY(-3rem);
+                    color: #F44336;
+                    font-family: 'Open Sans';
+                }
+              
+                
+                margin-top: 2rem;
+                background: #FFFFFF;
+                    box-shadow: none;
+                    border: none;
+                    border-radius: 6px;
+                    padding: 1rem 4rem 3rem 4rem;
+                input{
+                    width: 20rem;
+                    height: 3rem;
+                    background-color: #F3F3F3;
+                    border: none;
+                    border-radius: 5px;
+                    padding: 0.5rem 1.5rem;
+                    margin-right: 0;
+                    font-size: 16px;
+                }
+                .bar-I,
+                .fourth-input .bar-V{
+                    margin-right:4.5rem ;
+                }
+                .fifth-input{
+                    input{
+                    height: 100px;
+                    background-image: url(../public/search-bar-bars.svg);
+                    background-repeat: no-repeat;
+                    background-position: (98%) (90%) ;
+                    padding: 1rem;
+                    vertical-align: top;
+                    text-align: top;
+                    
+                    }
+                }
+                input[type="password"]{
+                    background-image: url(../public/bpt-showpassword.svg);
+                    background-repeat: no-repeat;
+                    background-position: (90%) center;
+                }
+                button{
+                    background: #007BFF;
+                    border-radius: 5px;
+                    width: 180px;
+                    color: white;
+                    padding: 1rem;
+                    font-size: 16px;
+                    font-family: Inter;
+                    font-weight: 600;
+                    margin-top: 0.5rem;
+                }
+                label{
+                    margin-bottom: 0.75rem;
+                    display: flex;
+                    align-items: center;
+                    font-size: 18px;
+                    letter-spacing: 0.5px;
+                    img{
+                        width: 28px;
+                        margin-right: 0.5rem;
+                    }
+                }
+                div{
+                    display: flex;
+                    margin-bottom: 1rem;
+                    div{
+                        flex-direction: column;
+                    }
+                }
+                .first-input{
+                    div{
+                        flex-direction: column;
+                    }
+                }
+                .fourth-input{
+                    div{
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+}
