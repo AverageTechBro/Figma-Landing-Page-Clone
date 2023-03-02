@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    background-repeat: no-repeat;
+}
+.about-container{
+    padding: 0rem 13rem;
+    .about-content{
+        transform: translateY(10rem);
+        margin-bottom: 20rem;
+        font-family: 'Open Sans';
+        p{
+            color: #6B7177;
+        }
+        h3{
+            font-family: 'Open Sans';
+            font-size: 25px;
+            font-weight: 600;
+        }
+        h5{
+            font-family: 'Open Sans';
+            font-size: 19px;
+        }
+        .blue-background{
+            width: 100%;
+            background-color: #80bdff48;
+            height: 400px;
+            margin-top: -3rem;
+            background-image: url(../public/blue-back.svg);
+            background-repeat: no-repeat;
+            background-position: 95% center;
+            background-size: 34%;
+            *:not(img){
+                margin-left: 4rem;
+            }
+            h5{
+                font-family: 'Open Sans';
+                font-size: 19px;
+                transform: translateY(4rem);
+            }
+            h3{
+                margin-top: 5rem;
+                font-family: 'Open Sans';
+                font-size: 25px;
+                font-weight: 600;
+            }
+            p{
+                color: #6B7177;
+                font-family: 'Open Sans';
+                max-width: 320px;
+                font-size: 19px;
+                margin-top: -0.6rem;
+
+            }
+            button{
+                background: #007BFF;
+                border-radius: 5px;
+                width: 180px;
+                color: white;
+                padding: 1rem;
+                font-size: 16px;
+                font-family: Inter;
+                font-weight: 600;
+                margin-top: 1.5rem; 
+            }
+        }
+        .second-container{
+            width: 100%;
+            position: relative;
+            margin-top: 6rem;
+            height: 410px;
+            background-image: url(../public/second-back.svg);
+            background-repeat: no-repeat;
+            background-size: 50%;
+            .text-container{
+                max-width: 500px;
+                position: absolute;
+                right: 10%;
+                h5{
+                    color: #007BFF;
+                    margin-bottom: 0;
+                }
+                p{
+                    letter-spacing: 1.2px;
+                    font-size: 20px;
+                    line-height: 36px;
+                }
+            }
+        }
+        .third-container{
+            width: 100%;
+            text-align: center;
+            margin-top: 8rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h5{
+                color: #007BFF;
+                margin-bottom: -0.5rem;
+            }
+            P{
+                margin-top: 0;
+                letter-spacing: 1px;
+                font-size: 20px;
+                line-height: 30px;
+                max-width: 750px;
+            }
+        }
+        .fourth-container{
+            margin-top: 6rem;
+            width: 100%;
+            height: 400px;
+            background-image: url(../public/fourth-back.svg);
+            background-repeat: no-repeat;
+            background-size: 60%;
+            background-position: 100% 100%;
+            p{
+                max-width: 50%;
+                letter-spacing: 1.5px;
+                font-size: 18px;
+                line-height: 30px;
+            }
+            h5{
+                color: #007BFF;
+                margin-bottom: -1.1rem;
+            }
+        }
+        .fifth-container{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 25rem;
+            margin-top: 4rem;
+            h5{
+                color: #007BFF;
+                font-size: 24px;
+                letter-spacing: 1.4px;
+                margin-bottom: 4rem;
+            }
+            .boxes-container{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+             
+                p{
+                    max-width: 460px;
+                    font-size: 21px;
+                    letter-spacing: 1px;
+                    line-height: 30px;
+                }
+                h4{
+                    font-family: 'Open Sans';
+                    font-weight: 400;
+                    font-size: 20px;
+                    letter-spacing: 1px;
+                }
+                a{
+                    text-decoration: underline;
+                    background-image: url(../public/arrow.svg);
+                    background-repeat: no-repeat;
+                    background-position: 100%;
+                    padding: 0 3rem 0 0;
+                    font-size: 20px;
+                    letter-spacing: 0.5px;
+
+                }
+                div{
+                    padding-top: 2rem;
+                    margin-top: 2rem;
+                }
+                .box1{
+                    background-image: url(../public/headphone.svg);
+                    
+                }
+                .box2{
+                    background-image: url(../public/work.svg);
+                }
+                .box3{
+                    background-image: url(../public/annouce.svg);
+                }
+            }
+        }
+    }
+}
