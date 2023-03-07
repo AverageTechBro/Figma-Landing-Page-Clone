@@ -4,6 +4,12 @@
 }
 .about-container{
     padding: 0rem 13rem;
+    @media  screen and (max-width:1500px) and (min-width:900px) {
+        padding: 0rem 6rem;
+        .tag-container{
+            margin-left: -4.8rem ;
+        }
+    }
     .about-content{
         transform: translateY(10rem);
         margin-bottom: 20rem;
@@ -146,6 +152,9 @@
                     max-width: 460px;
                     font-size: 21px;
                     letter-spacing: 1px;
+                    @media  screen and (max-width:1500px) and (min-width:900px) {
+                        max-width: 300px ;
+                    }
                     line-height: 30px;
                 }
                 h4{

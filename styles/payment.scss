@@ -1,5 +1,9 @@
 .payment-container{
     padding: 1rem 12rem;
+    @media  screen and (max-width:1500px) and (min-width:900px) {
+        padding: 0rem 5rem;
+
+    }
     .stats-container{
         transform: translateY(24rem);
     }
@@ -27,6 +31,11 @@
                     border-radius: 10px;
                     box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
                     background-repeat: no-repeat;
+                    @media  screen and (max-width:1500px) and (min-width:900px) {
+                        width: 130px;
+                        background-size: 90px;
+                        height: 60px;
+                    }
                 }
             }
             .box1{
@@ -80,6 +89,10 @@
             border: 1px solid rgba(211, 211, 211, 0.489);
             right:0%;
             top: 50px;
+            @media  screen and (max-width:1500px) and (min-width:900px) {
+                height: 370px;
+                top: 100px;
+            }
             h3{
                 margin-left: 2rem;
                 font-weight: 500;
@@ -93,12 +106,20 @@
                 justify-content: space-between;
                 color: #6A6A6A;
                 font-size: 19px;
+                @media  screen and (max-width:1500px) and (min-width:900px) {
+                    font-size: 16px;
+                    margin-left: 1.5rem;
+                    
+                }
                 span{
                     margin-right: 2rem;
                 }
                 b{
                     font-weight: 500;
                     color: #007BFF;
+                    @media  screen and (max-width:1500px) and (min-width:900px) {
+                        margin: 0 !important;
+                    }
                 }
             }
             button{
@@ -115,7 +136,11 @@
                 text-align: center;
                 border-radius: 10px;
                 border: none;
-                font-size: 18px
+                font-size: 18px;
+                @media  screen and (max-width:1500px) and (min-width:900px) {
+                    margin-top: 1rem;
+                    margin-left: 2.2rem;
+                }
             }
         }
         

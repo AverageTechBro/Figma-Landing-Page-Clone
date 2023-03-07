@@ -6,7 +6,9 @@ button{
 .edit-profile-container,
 .my-order-container,
 .payment-container,
-.about-container{    
+.about-container,
+.track-container,
+.adress-container{    
 font-family: Roboto;
         .stats-container{   
             margin-top: 10rem;
@@ -69,6 +71,9 @@ font-family: Roboto;
             padding: 0 0 0 0;
             background-color:#fdfcfd;
             margin-left: 5rem;
+            @media  screen and (max-width:1500px) and (min-width:900px) {
+                margin-left: 2rem;
+            }
   
             width: 90vw;
             .top-section{
@@ -251,6 +256,12 @@ font-family: Roboto;
         margin-left: 7.5rem;
         transform: translate();
     }
+    @media screen and (max-width: 1500px) and (min-width: 900px) {
+        .Logo{
+            margin-left: 1rem;
+            margin-right: 2rem;
+        }
+    }
     .search-bar{
         display: flex;
         margin-left: 1.5rem;
@@ -282,6 +293,7 @@ font-family: Roboto;
                 width: 26px;
             }
         }
+        
     }
     .right-side{
         margin-left: -15rem;
@@ -289,6 +301,9 @@ font-family: Roboto;
         color: #848484;
         display: flex;
         font-size: 18px;
+        @media screen and (max-width: 1500px) and (min-width: 900px) {
+            margin-left: -12.5rem;
+        }
         .shop{
             display: flex;
             justify-content: center;
@@ -538,4 +553,5 @@ font-family: Roboto;
             }
         }
     }
+    
 }

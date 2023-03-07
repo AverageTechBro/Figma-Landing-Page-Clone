@@ -1,0 +1,206 @@
+.track-container{
+    padding: 0 12.7rem;
+    @media screen and (max-width: 1500px) and (min-width: 900px) {
+        padding: 0 7rem;
+    }
+    .tag-container{
+        margin-left: -4.9rem;
+    }
+
+    .track-content{
+        transform: translateY(7rem);
+        h3{
+            font-family: Roboto;
+            font-weight: 500;
+            color: #1F2937;
+           
+        }
+        .main-h3{
+            background-image: url(../public/left-black-arrow.svg);
+            padding: 1rem 0 0 3rem;
+            font-size: 28px;
+            background-position: 0% 100%;
+        }
+        .track-content-container{
+            position: relative;
+            background: #FFFFFF;
+            box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.25);
+            padding: 2rem 4rem;
+            .top-section{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                p{
+                    color: black;
+                    font-size: 18px;
+                    font-weight: 500;
+                    span{
+                        color: #007BFF;
+                    }
+
+                }
+                .right-side{
+                    p{
+                        color: #4F4F4F;
+                        span{
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+            .mid-section{
+                .mid-top-section{
+                    margin-top: 8rem;
+                    @media screen and (max-width: 1500px) and (min-width: 900px) {
+                        .bar-container{
+                            margin-left: 3.2rem !important ;
+                        }
+                    }
+                    .bar-container{
+                        margin-left: 4rem;
+                        display: flex;
+                        div{
+                            width: 1000px;
+                        }
+                        img{
+                            width: 25px;
+                            height: 25px;
+                        }
+                        .gray-bar{
+                            background-color: #C7D3EB;
+                           
+                            
+                        }
+                        .blue-bar,
+                        .gray-bar{
+                            width: 340px;
+                            height: 10px;
+                        }
+                        @media screen and (max-width: 1500px) {
+                            
+                            .blue-bar,
+                            .gray-bar{
+                                width: 239px;
+                                height: 10px;
+                            }
+                        }
+                        .bar-I{
+                            display: flex;
+                            align-items: center;
+                            .blue-bar{
+                                background-color: #007BFF;
+                                
+                               
+                            }
+                            img{
+                                border: 2px solid  #007BFF;
+                                padding:  0.7rem;
+                                border-radius: 50%;
+                            }
+                        }
+                        .bar-II{
+                            
+                                display: flex;
+                                align-items: center;
+                            img{
+                                background-color: #C7D3EB;
+                                padding:  1rem;
+                                border-radius: 50%;
+                                width: 20px;
+                                height: 20px;
+                            }
+                        }
+                    }
+                }
+                .mid-bottom-section{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-left: 2rem;
+                    margin-top: 0rem;
+                    max-width: 95%;
+                    p{
+                        color: #007BFF;
+                        font-size: 16px;
+                        font-family: Inter;
+                        font-weight: 600;
+                        padding: 1rem 0 1rem 2.5rem;
+                        background-position: 0% 50%;
+                        background-size: 20%;
+                        
+                        
+                       
+                    }
+                    p:nth-child(1){
+                        background-image: url(../public/order-tab.svg);
+                    }
+                    p:nth-child(2){
+                        background-image: url(../public/phone-pack.svg);
+                    }
+                    p:nth-child(3){
+                        background-image: url(../public/truck.svg);
+                    }
+                    p:nth-child(4){
+                        background-image: url(../public/Group.png);
+                    }
+                }
+            }
+            .border-purpose{
+                height: 15px;
+                width: 100%;
+                position: absolute;
+                left: 0;
+                border-bottom: 1px solid #E7E7E7;
+            }
+            .bottom-section{
+                margin-top: 4rem;
+                .bottom-top-section{
+                    display: flex;
+                    justify-content: space-between;
+                    h3{
+                        font-size: 24px;
+                        font-family: Roboto;
+                        font-weight: 500;
+                    }
+
+                }
+                .bottom-bottom-section{
+                    margin-top: 1rem;
+                    div{
+                        background-image: url(../public/cart-acer.svg);
+                        padding: 2rem 0rem 3rem 13rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-bottom: 3rem;
+                        h4{
+                            margin-top: -0rem;
+                            margin-right: 2rem;
+                            color: #6A6A6A;
+                            font-family: Roboto;
+                            font-weight: 500;
+                            font-size: 24px;
+                        }
+                        p{
+                            color: #6A6A6A;
+                            font-family: Roboto;
+                            font-weight: 400;
+                            font-size: 22px;
+                            letter-spacing: 1.5px;
+                            margin-top: 0.5rem;
+                        }
+                        @media screen and (max-width: 1500px) and (min-width: 900px) {
+                            p{
+                                font-size: 18px;
+                                margin-left: -1rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    .footer-container{
+        transform:translateY(12rem)
+    }
+}

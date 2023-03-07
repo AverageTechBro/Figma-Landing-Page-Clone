@@ -1,0 +1,240 @@
+.adress-container{
+    padding: 0 13rem;
+    @media  screen and (max-width:1500px) and (min-width:900px) {
+        padding: 0 6rem;
+    }
+    .footer-container{
+        margin-top: 15rem;
+    }
+    .delivery-adress-container,
+    .adress-content{
+        
+        transform: translateY(7rem);
+    }
+    .delivery-adress-container{
+        display: flex;
+        h5{
+            color: #007BFF;
+            font-family: Roboto;
+            font-weight: 500;
+            font-size: 22px;
+            
+        }
+        .options{
+            margin-left: 5rem;
+            display: flex;
+            align-items: center;
+            p{
+                color: #00000061;
+                padding: 0 0 0 1.7rem;
+                font-size: 18px;
+                background-position: 0% center;
+                margin-right: 1rem;
+                background-size: 24%;
+            }
+            input{
+                color: #007BFF;
+                width: 18px;
+                height: 15px;
+                margin-right: 1rem;
+                
+            }
+
+            .p1{
+                background-image: url(../public/house.svg);
+                color: #007BFF;
+            }
+            .p2{
+                background-image: url(../public/briefcase.svg);
+            }
+            .p3{
+                padding: 0;
+            }
+        }
+    }
+    .adress-content{
+        display: flex;
+        .left-side{
+            width: 50vw;
+            background: #FFFFFF;
+                box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.25);
+                border: 1.5px solid rgba(211, 211, 211, 0.442);;
+                border-radius: 6px;
+                padding: 1rem 1rem 3rem 4rem;
+                input{
+                    width: 88%;
+                    height: 4rem;
+                    background-color: #F3F3F3;
+                    border: none;
+                    border-radius: 5px;
+                    padding: 0.5rem 1.5rem;
+                    margin-right: 4.5rem;
+                    font-size: 16px;
+                }
+            label{
+                margin-bottom: 0.55rem;
+                margin-top: 2rem;
+                display: flex;
+                align-items: center;
+                font-size: 16px;
+                letter-spacing: 0.5px;
+                color: #6A6A6A;
+                img{
+                    width: 22px;
+                    margin-right: 0.5rem;
+                }
+            }
+            .top-option,
+            .bottom-option{
+                p{
+                    background-color: #F3F3F3;
+                    width: 250px;
+                    padding: 1.5rem 1.5rem;
+                    background-image: url(../public/downpoint.svg);
+                    background-position: 90% 50%;
+                    background-size: 4.5%;
+                    border-radius: 5px;
+                    border: 1px solid rgba(211, 211, 211, 0.578);
+                    color: #4F4F4F;
+                    font-size: 16px;
+                    @media  screen and (max-width:1500px) and (min-width:900px) {
+                        width: 180px;
+                    }
+                    
+                }
+                div:last-child{
+                    margin-right: 4rem;
+                }
+            }
+            .top-option{
+                display: flex;
+                justify-content: space-between;
+            }
+            .bottom-option{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        .right-side{
+            .top-section{
+                display: flex;
+                flex-direction: column;
+                box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 6px;
+                margin-left: 2.5rem;
+                padding: 1rem 2rem;
+                h4{
+                    margin-bottom: 0;
+                    font-weight: 500;
+                    font-size: 20px;
+
+                }
+                .specs{
+                    background-image: url(../public/cart-acer.svg);
+                    padding: 2rem 1rem 3rem 8rem;
+                    background-size: 28%;
+                    background-position: 0% center;
+                    color: #000000A3;
+                    font-size: 16px;
+                    max-width: 320px;
+                    letter-spacing: 0.5px;
+                    line-height: 27px;
+                    @media  screen and (max-width:1500px) and (min-width:900px) {
+                        font-size: 14px;
+                        padding: 1rem 1rem 3rem 8rem;
+                    }
+                }
+                .content-container{
+                    position: relative;
+                    margin-top: -0.5rem;
+                }
+                .price{
+                    position: absolute;
+                    bottom: 14%;
+                    left: 32%;
+                    font-family: Roboto;
+                    font-weight: 500;
+                    color: #6A6A6A;
+                    @media  screen and (max-width:1500px) and (min-width:900px) {
+                        left: 34%;
+                        bottom: 16%;
+                        font-size: 14px;
+                    }
+                    span{
+                        color: #007BFF;
+                    }
+                }
+            }
+            .order-summary{
+                display: flex;
+                flex-direction: column;
+                box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 6px;
+                width: 32%;
+                position: absolute;
+                height: 450px;
+                margin-left: 2rem;
+                background-color: white;
+                margin-top: -5rem;
+                border: 1px solid rgba(211, 211, 211, 0.489);
+                right:0%;
+                top: 63%;
+                @media  screen and (max-width:1500px) and (min-width:900px) {
+                    height: 380px;
+                    top: 63%;
+                    width: 38.1%;
+                }
+                h3{
+                    margin-left: 2rem;
+                    font-weight: 500;
+                    font-size: 24px;
+                    margin-top: 3rem;
+                    margin-bottom: 2rem;
+                }
+                p{
+                    margin-left: 2rem;
+                    display: flex;
+                    justify-content: space-between;
+                    color: #6A6A6A;
+                    font-size: 19px;
+                    @media  screen and (max-width:1500px) and (min-width:900px) {
+                        font-size: 16px;
+                        margin-left: 1.5rem;
+                        
+                    }
+                    span{
+                        margin-right: 2rem;
+                    }
+                    b{
+                        font-weight: 500;
+                        color: #007BFF;
+                        @media  screen and (max-width:1500px) and (min-width:900px) {
+                            margin: 0 !important;
+                        }
+                    }
+                }
+                button{
+    
+                    margin-left: 3rem;
+                    width: 80%;
+                    margin-top: 4rem;
+                    height: 60px;
+                    background-color: #007BFF;
+                    color: white;
+                    font-family: Inter;
+                    font-weight: 600;
+                    letter-spacing: 1.4px;
+                    text-align: center;
+                    border-radius: 10px;
+                    border: none;
+                    font-size: 18px;
+                    @media  screen and (max-width:1500px) and (min-width:900px) {
+                        margin-top: 1rem;
+                        margin-left: 2.2rem;
+                    }
+                }
+            }
+    }
+
+    }
+}

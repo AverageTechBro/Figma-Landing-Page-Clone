@@ -10,6 +10,25 @@
         font-weight: 400;
         font-size: 14px;
     }
+    @media screen and (max-width:1500px) and (min-width: 900px) {
+        label{
+            margin-left: -13rem;
+        }
+        h4{
+            margin-left: -14rem;
+            margin-top: -1rem;
+        }
+        img{
+            width: 300px;
+            
+        }
+        button{
+            margin: -1rem 0 0 0 !important;
+        }
+        .left-side{
+            height: 860px ;
+        }
+    }
     input[placeholder="Enter username"]{
         background-image: none !important;
     }
