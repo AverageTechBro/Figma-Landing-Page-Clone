@@ -17,17 +17,29 @@ import Notification from "./notificationTop";
 import "swiper/css";
 import "swiper/swiper-bundle.css";
 import Swiper, { Navigation, Pagination } from "swiper/bundle";
-
+import axios from "axios";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const [swiper, setSwiper] = useState(null);
+  const [discount, setDiscount] = useState([]);
+  const handleApi = async () => {
+    axios
+      .get("http://localhost:1337/api/laptops")
+      .then((res) => {
+        setDiscount(res.data);
+        console.log(res.data);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
 
   useEffect(() => {
+    handleApi();
     if (typeof window !== "undefined") {
       // initialize Swiper only on the client-side
       Swiper.use([Navigation, Pagination]);
-
       const mySwiper = new Swiper(".swiper", {
         loop: true,
         navigation: {
@@ -43,7 +55,7 @@ export default function Home() {
       setSwiper(mySwiper);
     }
   }, []);
-
+  let count = -1;
   return (
     <div className="landing-page-container">
       <Notification />
@@ -219,7 +231,67 @@ export default function Home() {
           />
         </div>
       </div>
-      <IISectionedShop />
+      {/* <IISectionedShop /> */}
+
+      <div className="position-one-time-II">
+        <div className="home-mainshop-container">
+          {discount?.data?.map((item, index) => {
+            count++;
+            console.log(count);
+            if (count < 5 && index >= 0 && index <= 4) {
+              return (
+                <>
+                  <div className="mainshop-container">
+                    <div className="discount-status">
+                      <p>{item.attributes.discount} OFF </p>
+                    </div>
+                    <div className="shop-content">
+                      {item.attributes.thumbnail && (
+                        <div className="laptop-info">
+                          <img src={item.attributes.thumbnail} alt="hi" />
+                          <p>{item.attributes.specs}</p>
+                        </div>
+                      )}
+                      <div className="metadata-container">
+                        <div className="left-side">
+                          <p className="real-price">
+                            <span>Rs.</span> {item.attributes.mainprice}
+                          </p>
+                          <p className="previous-price">
+                            Rs {item.attributes.initialprice}
+                          </p>
+                          <button>
+                            <img
+                              src="https://media.discordapp.net/attachments/1075680327718141992/1075768813750071296/Vector5.png"
+                              alt=""
+                            />
+                            Delivery in, 48hrs
+                          </button>
+                        </div>
+                        <button className="view-detail-button">
+                          VIEW DETAILS{" "}
+                          <img
+                            src="https://media.discordapp.net/attachments/1075680327718141992/1075685687703109673/Vector3.png"
+                            alt=""
+                          />{" "}
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </>
+              );
+            }
+          })}
+        </div>
+      </div>
+      {/* {discount &&
+        discount?.map((item) => {
+          return (
+            <>
+              <h1>{item}</h1>
+            </>
+          );
+        })} */}
       <div className="position-one-time-II">
         <p className="mainshop-I-title">
           <span>Up to 70% OFF</span> Laptops!! <button>View All</button>{" "}
@@ -282,6 +354,7 @@ export default function Home() {
           />
         </div>
       </div>
+
       <div className="position-one-time">
         <p className="mainshop-I-title">
           <span>Gaming</span> Series! <button>View All</button>{" "}
